@@ -1,5 +1,4 @@
 .header {
-
   background-image: url(../img/header-bg.png);
   background-color: var(--brand-color-dark);
   background-size: cover;
@@ -32,30 +31,26 @@
   font-weight: 600;
 }
 
-.header-menu-list {}
-
-.menu-item {}
-
-.header-menu-item {}
-
-.menu-link {}
-
-.header-menu-link {}
-
-.social-list {
-  display: flex;
-  gap: 5px;
+.header-menu-link {
+  opacity: 0.84;
+  transition: all 0.5s;
 }
 
-.header-social-list {}
+.header-menu-link:hover {
+  opacity: 1;
+}
 
-.social-item {}
+.header-social-link .outer_bDW {
+  filter: grayscale(0.50);
+}
 
-.header-social-item {}
+.header-social-link .border_2yy {
+  fill: none;
+}
 
-.social-link {}
-
-.header-social-link {}
+.header-social-link:hover .border_2yy {
+  fill: none;
+}
 
 .header-content {
   padding-top: 250px;
@@ -70,9 +65,9 @@
 }
 
 .header-subtitle {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
-.header-button {}
-
-.button-sign {}
+.header-button {
+  font-size: 18px;
+}

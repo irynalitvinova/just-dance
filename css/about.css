@@ -2,9 +2,49 @@
   padding-top: 115px;
   padding-bottom: 115px;
   text-align: center;
-   
 }
+
+.about-image {
+  background-image: url(../img/about-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  margin-bottom: 50px;
+}
+
 .about-divider-line {
   margin-left: auto;
   margin-right: auto;
+}
+
+.about-subtitle {
+  opacity: 0.78;
+  max-width: 385px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.about-text {
+  max-width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.about-social-list {
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.about-social-link svg {
+  width: 29px;
+  height: 29px;
+}
+
+.about-buttons-box {
+  display: flex;
+  justify-content: center;
+  gap: 29px;
 }
