@@ -1,0 +1,17 @@
+.awards {
+  padding-top: 115px;
+  padding-bottom: 115px;
+  color: var(--alternate-text-color);
+  background-color: var(--brand-color-dark);
+  background-image: linear-gradient(to right, var(--brand-color-dark), var(--brand-color));
+}
+
+.awards-title {
+  color: var(--alternate-text-color);
+}
+.awards-divider-line {
+  background-color: var(--alternate-text-color);
+}
+.awards-subtitle {
+  max-width: 370px;
+}

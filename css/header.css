@@ -1,0 +1,78 @@
+.header {
+
+  background-image: url(../img/header-bg.png);
+  background-color: var(--brand-color-dark);
+  background-size: cover;
+  background-position: center right 40%;
+  background-repeat: no-repeat;
+  height: 150vh;
+  color: var(--alternate-text-color);
+}
+
+.header-top {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding-right: 15px;
+}
+
+.header-nav-box {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-list {
+  display: flex;
+  gap: 15px;
+  font-weight: 600;
+}
+
+.header-menu-list {}
+
+.menu-item {}
+
+.header-menu-item {}
+
+.menu-link {}
+
+.header-menu-link {}
+
+.social-list {
+  display: flex;
+  gap: 5px;
+}
+
+.header-social-list {}
+
+.social-item {}
+
+.header-social-item {}
+
+.social-link {}
+
+.header-social-link {}
+
+.header-content {
+  padding-top: 250px;
+  text-align: left;
+}
+
+.header-title {
+  font-size: 110px;
+  line-height: 110px;
+  color: var(--alternate-text-color);
+  margin-bottom: 5px;
+}
+
+.header-subtitle {
+  margin-bottom: 50px;
+}
+
+.header-button {}
+
+.button-sign {}
