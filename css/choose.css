@@ -1,0 +1,22 @@
+.choose {
+  padding-top: 170px;
+  padding-bottom: 180px;
+  color: var(--alternate-text-color);
+  background-color: var(--brand-color-dark);
+  background-image: linear-gradient(to right, var(--brand-color-dark), var(--brand-color));
+  text-align: center;
+}
+
+.choose-title {
+  color: var(--alternate-text-color);
+}
+
+.choose-divider-line {
+  background-color: var(--alternate-text-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.choose-button-box {
+  margin-top: 50px;
+}

@@ -1,0 +1,23 @@
+.call-action {
+  padding-top: 190px;
+  padding-bottom: 200px;
+  color: var(--alternate-text-color);
+  background-color: var(--brand-color-dark);
+  background-image: linear-gradient(to right, var(--brand-color-dark), var(--brand-color));
+  text-align: center;
+}
+
+.call-action-title {
+  color: var(--alternate-text-color);
+}
+
+.call-action-divider-line {
+  background-color: var(--alternate-text-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.call-action-button-box {
+  margin-top: 50px;
+}
+

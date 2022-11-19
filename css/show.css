@@ -1,0 +1,30 @@
+.show {
+  background-image: url(../img/show-bg.png);
+  background-color: var(--main-text-color);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--alternate-text-color);
+  background-attachment: fixed;
+  padding-top: 115px;
+  padding-bottom: 115px;
+}
+
+.show-description {
+  padding: 55px;
+  max-width: 570px;
+  background-color: var(--text-color-accent-dark);
+  opacity: o.69;
+}
+
+.show-title {
+  color: var(--alternate-text-color);
+}
+
+.show-subtitle {
+  margin-bottom: 50px;
+}
+
+.show-text {
+  opacity: 0.76;
+}

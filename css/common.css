@@ -59,7 +59,7 @@ body {
 
 .divider-line {
   height: 3px;
-  width: 5%;
+  width: 54px;
   background-color: var(--brand-color);
   margin-top: 15px;
   margin-bottom: 15px;
@@ -101,6 +101,20 @@ body {
 .button-sign:hover {
   background-color: var(--brand-color-dark);
   background-image: linear-gradient(to right, var(--brand-color-dark), var(--brand-color));
+}
+
+ .button-sign-white {
+  padding: 10px 40px 11px;
+  color: var(--brand-color-dark);
+  background-color: var(--alternate-text-color);
+  border-radius: 30px;
+  font-weight: 700;
+  transition: all 0.5s;
+}
+
+.button-sign-white:hover  {
+  color: var(--alternate-text-color);
+  background-color: var(--brand-color-dark);
 }
 
 .button-more {
