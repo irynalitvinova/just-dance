@@ -34,3 +34,10 @@
 .history-text-owner {
   opacity: 0.76;
 }
+
+@media (max-width: 991px) {
+  .history {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}

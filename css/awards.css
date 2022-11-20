@@ -9,10 +9,19 @@
 .awards-title {
   color: var(--alternate-text-color);
 }
+
 .awards-divider-line {
   background-color: var(--alternate-text-color);
   margin-left: 0;
 }
+
 .awards-subtitle {
   max-width: 370px;
+}
+
+@media (max-width: 991px) {
+  .awards {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
 }

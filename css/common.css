@@ -75,8 +75,6 @@ body {
 }
 
 .menu-list {
-  display: flex;
-  gap: 15px;
   font-weight: 600;
 }
 
@@ -140,4 +138,33 @@ body {
 .button-more:hover {
   color: var(--alternate-text-color);
   background-color: var(--brand-color-dark);
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .title {
+    font-size: 38px;
+    line-height: 45px;
+  }
+
+  .divider-line {
+    width: 34px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .title {
+    font-size: 34px;
+    line-height: 41px;
+  }
 }

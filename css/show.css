@@ -32,3 +32,10 @@
 .show-text {
   opacity: 0.76;
 }
+
+@media (max-width: 991px) {
+  .show {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}

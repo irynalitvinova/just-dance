@@ -15,3 +15,9 @@
   color: var(--alternate-text-color);
 }
 
+@media (max-width: 991px) {
+  .why {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}

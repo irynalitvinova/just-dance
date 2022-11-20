@@ -7,3 +7,10 @@
 .video-subtitle {
   margin-bottom: 40px;
 }
+
+@media (max-width: 991px) {
+  .video {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}

@@ -18,3 +18,10 @@
 .call-action-button-box {
   margin-top: 50px;
 }
+
+@media (max-width: 991px) {
+  .call-action {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}

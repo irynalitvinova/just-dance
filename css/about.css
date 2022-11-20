@@ -43,3 +43,30 @@
   justify-content: center;
   gap: 29px;
 }
+
+@media (max-width: 991px) {
+  .about {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-subtitle {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-buttons-box {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .about {
+    padding-top: 115px;
+    padding-bottom: 115px;
+    text-align: center;
+  }
+}

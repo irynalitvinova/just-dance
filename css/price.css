@@ -16,3 +16,9 @@
   color: var(--alternate-text-color);
 }
 
+@media (max-width: 991px) {
+  .price {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}

@@ -14,6 +14,7 @@
 .choose-divider-line {
   background-color: var(--alternate-text-color);
 }
+
 .choose-subtitle {
   max-width: 736px;
   margin-left: auto;
@@ -22,4 +23,11 @@
 
 .choose-button-box {
   margin-top: 50px;
+}
+
+@media (max-width: 991px) {
+  .choose {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
 }

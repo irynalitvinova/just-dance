@@ -10,3 +10,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (max-width: 991px) {
+  .dance-styles {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
