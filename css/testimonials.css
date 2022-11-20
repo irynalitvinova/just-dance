@@ -1,21 +1,27 @@
-.why {
-  background-image: url(../img/why-bg.png);
+.testimonials {
+  background-image: url(../img/testimonials/testimonials-bg.png);
   background-color: var(--main-text-color);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   color: var(--alternate-text-color);
-  text-align: center;
+   text-align: center;
   height: 150vh;
   padding-top: 105px;
   padding-bottom: 115px;
 }
 
-.why-title {
+.testimonials-title {
   color: var(--alternate-text-color);
 }
 
-.why-divider-line {
+.testimonials-divider-line {
+  margin-left: auto;
+  margin-right: auto;
+}
+.testimonials-subtitle {
+  max-width: 736px;
+  margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
 }

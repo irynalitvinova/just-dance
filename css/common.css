@@ -14,7 +14,8 @@
   --text-color-accent-dark: #232323;
   --brand-color: #e528ac;
   --brand-color-dark: #5d2d9d;
-  --background-color: #fafafa;
+  --brand-color-middle: #9a2d9d;
+  --background-color-dark-white: #fbfbfb;
 }
 
 a {
@@ -70,6 +71,12 @@ body {
   line-height: 30px;
 }
 
+.menu-list {
+  display: flex;
+  gap: 15px;
+  font-weight: 600;
+}
+
 .social-list {
   display: flex;
   gap: 5px;
@@ -103,7 +110,7 @@ body {
   background-image: linear-gradient(to right, var(--brand-color-dark), var(--brand-color));
 }
 
- .button-sign-white {
+.button-sign-white {
   padding: 10px 40px 11px;
   color: var(--brand-color-dark);
   background-color: var(--alternate-text-color);
@@ -112,7 +119,7 @@ body {
   transition: all 0.5s;
 }
 
-.button-sign-white:hover  {
+.button-sign-white:hover {
   color: var(--alternate-text-color);
   background-color: var(--brand-color-dark);
 }

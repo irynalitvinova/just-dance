@@ -1,8 +1,8 @@
-.why {
-  background-image: url(../img/why-bg.png);
+.schedule {
+  background-image: url(../img/schedule/schedule-bg.png);
   background-color: var(--main-text-color);
-  background-size: cover;
-  background-position: center center;
+  background-size: auto;
+  background-position: center 35%;
   background-repeat: no-repeat;
   color: var(--alternate-text-color);
   text-align: center;
@@ -11,11 +11,11 @@
   padding-bottom: 115px;
 }
 
-.why-title {
+.schedule-title {
   color: var(--alternate-text-color);
 }
 
-.why-divider-line {
+.schedule-divider-line {
   margin-left: auto;
   margin-right: auto;
 }

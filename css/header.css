@@ -25,12 +25,6 @@
   gap: 20px;
 }
 
-.menu-list {
-  display: flex;
-  gap: 15px;
-  font-weight: 600;
-}
-
 .header-menu-link {
   opacity: 0.84;
   transition: all 0.5s;

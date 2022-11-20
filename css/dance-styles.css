@@ -1,0 +1,17 @@
+.dance-styles {
+  padding-top: 105px;
+  padding-bottom: 105px;
+  text-align: center;
+}
+
+.dance-styles-divider-line {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dance-styles-subtitle {
+  max-width: 736px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}

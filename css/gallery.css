@@ -1,0 +1,17 @@
+.gallery {
+  padding-top: 105px;
+  padding-bottom: 115px;
+  text-align: center;
+}
+
+.gallery-divider-line {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-subtitle {
+  max-width: 736px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,28 +1,25 @@
-.choose {
-  padding-top: 170px;
-  padding-bottom: 180px;
+.partners {
+  padding-top: 105px;
+  padding-bottom: 115px;
   color: var(--alternate-text-color);
   background-color: var(--brand-color-dark);
   background-image: linear-gradient(to right, var(--brand-color-dark), var(--brand-color));
   text-align: center;
 }
 
-.choose-title {
+.partners-title {
   color: var(--alternate-text-color);
 }
 
-.choose-divider-line {
+.partners-divider-line {
   background-color: var(--alternate-text-color);
   margin-left: auto;
   margin-right: auto;
 }
 
-.choose-subtitle {
+.partners-subtitle {
   max-width: 736px;
+  margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.choose-button-box {
-  margin-top: 50px;
 }

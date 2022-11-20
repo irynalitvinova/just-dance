@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--text-color-accent-dark);
+  color: var(--alternate-text-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
+.footer-top {
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-menu-link {
+    transition: all 0.5s;
+}
+
+.footer-menu-link:hover {
+  color: var(--brand-color-middle);
+}
+.footer-divider-line {
+  height: 1px;
+  width: 100%;
+  background-color: var(--main-text-color);
+} 
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  line-height: 24px;
+}
