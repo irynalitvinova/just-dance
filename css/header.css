@@ -16,10 +16,6 @@
   align-items: center;
 }
 
-.logo {
-  padding-right: 15px;
-}
-
 .header-nav-box {
   display: flex;
   gap: 20px;

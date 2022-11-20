@@ -11,6 +11,7 @@
 }
 .awards-divider-line {
   background-color: var(--alternate-text-color);
+  margin-left: 0;
 }
 .awards-subtitle {
   max-width: 370px;

@@ -21,6 +21,10 @@
   color: var(--alternate-text-color);
 }
 
+.show-divider-line {
+  margin-left: 0;
+}
+
 .show-subtitle {
   margin-bottom: 50px;
 }

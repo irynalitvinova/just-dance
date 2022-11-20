@@ -15,10 +15,6 @@
   color: var(--alternate-text-color);
 }
 
-.testimonials-divider-line {
-  margin-left: auto;
-  margin-right: auto;
-}
 .testimonials-subtitle {
   max-width: 736px;
   margin-bottom: 40px;

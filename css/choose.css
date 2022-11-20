@@ -13,10 +13,7 @@
 
 .choose-divider-line {
   background-color: var(--alternate-text-color);
-  margin-left: auto;
-  margin-right: auto;
 }
-
 .choose-subtitle {
   max-width: 736px;
   margin-left: auto;

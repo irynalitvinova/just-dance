@@ -18,6 +18,10 @@
   color: var(--alternate-text-color);
 }
 
+.history-divider-line {
+  margin-left: 0;
+}
+
 .history-text-heading {
   font-family: 'Ubuntu', sans-serif;
   font-size: 24px;
@@ -30,4 +34,3 @@
 .history-text-owner {
   opacity: 0.76;
 }
-
