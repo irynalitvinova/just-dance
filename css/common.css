@@ -150,11 +150,6 @@ body {
     font-size: 38px;
     line-height: 45px;
   }
-
-  .divider-line {
-    width: 34px;
-  }
-
 }
 
 @media (max-width: 768px) {
@@ -166,5 +161,9 @@ body {
   .title {
     font-size: 34px;
     line-height: 41px;
+  }
+
+  .divider-line {
+    width: 34px;
   }
 }
