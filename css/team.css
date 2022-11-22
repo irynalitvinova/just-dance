@@ -11,9 +11,78 @@
   margin-right: auto;
 }
 
+.team-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+}
+
+.team-gallery-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.team-gallery-item-img {
+  width: 100%;
+  height: 80%;
+  object-position: 20% 20%;
+}
+
+.team-gallery-item-img--tani {
+  object-position: 20% 100%;
+}
+
+.team-gallery-item--amanda {
+  object-position: 80% 20%;
+}
+
+.team-gallery-item-description {
+  position: absolute;
+  background-color: var(--alternate-text-color);
+  padding: 20px 5px;
+  text-align: center;
+  top: 72%;
+  left: 20px;
+  right: 20px;
+}
+
+.team-gallery-item-name {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  color: var(--text-color-accent-dark);
+  margin-bottom: 10px;
+}
+
+.team-gallery-item-text {
+  font-size: 14px;
+  line-height: 24px;
+}
+
 @media (max-width: 991px) {
   .team {
     padding-top: 90px;
     padding-bottom: 90px;
+  }
+
+  .team-gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .team-gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .team-gallery-item-name {
+    font-size: 22px;
+    line-height: 33px;
   }
 }
