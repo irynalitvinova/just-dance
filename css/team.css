@@ -38,6 +38,10 @@
   object-position: 80% 20%;
 }
 
+.team-gallery-item-img--jessica {
+  object-position: 20% 70%;
+}
+
 .team-gallery-item-description {
   position: absolute;
   background-color: var(--alternate-text-color);
