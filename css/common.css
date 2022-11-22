@@ -16,6 +16,7 @@
   --brand-color-dark: #5d2d9d;
   --brand-color-middle: #9a2d9d;
   --background-color-dark-white: #fbfbfb;
+  --background-color-section-item:  rgba(35, 35, 35, 0.69);
 }
 
 a {

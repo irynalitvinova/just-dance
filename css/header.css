@@ -65,6 +65,7 @@
   transform: scale(1);
 }
 
+
 .navigation-burger::after {
   bottom: 0;
 }
@@ -181,15 +182,21 @@
     font-size: 86px;
     line-height: 86px;
   }
+  .header-social-link .outer_bDW {
+    filter: grayscale(0.90);
+  }
 }
 
 @media (max-width: 768px) {
   .header {
-    height: 110vh;
+    height: 130vh;
+    
   }
+
   .header-content {
-    padding-top: 130px;
+    padding-top: 110px;
   }
+
   .header-title {
     font-size: 62px;
     line-height: 62px;

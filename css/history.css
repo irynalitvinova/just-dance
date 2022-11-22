@@ -5,7 +5,7 @@
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 105px;
-  padding-bottom: 105px;
+  padding-bottom: 110px;
   color: var(--alternate-text-color);
   background-attachment: fixed;
 }
@@ -33,11 +33,57 @@
 
 .history-text-owner {
   opacity: 0.76;
+  margin-bottom: 60px;
+}
+
+.history-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.history-item {
+  text-align: center;
+}
+
+.history-item-number {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 110px;
+  padding-bottom: 5px;
+}
+
+.history-item-text {
+  font-weight: 700;
 }
 
 @media (max-width: 991px) {
   .history {
     padding-top: 90px;
     padding-bottom: 90px;
+  }
+
+  .history-item-number {
+    font-size: 86px;
+    line-height: 86px;
+  }
+}
+
+@media (max-width: 768px) {
+  .history-items {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .history-text-heading {
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  .history-item-number {
+    font-size: 62px;
+    line-height: 62px;
+    padding-bottom: 20px;
   }
 }

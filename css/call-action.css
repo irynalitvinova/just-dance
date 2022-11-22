@@ -14,7 +14,10 @@
 .call-action-divider-line {
   background-color: var(--alternate-text-color);
 }
-
+.call-action-subtitle {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .call-action-button-box {
   margin-top: 50px;
 }

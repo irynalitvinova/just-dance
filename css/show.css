@@ -13,8 +13,7 @@
 .show-description {
   padding: 55px;
   max-width: 570px;
-  background-color: var(--text-color-accent-dark);
-  opacity: o.69;
+  background: var(--background-color-section-item);
 }
 
 .show-title {
@@ -37,5 +36,11 @@
   .show {
     padding-top: 90px;
     padding-bottom: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .show-description {
+    padding: 35px;
   }
 }
