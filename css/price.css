@@ -7,7 +7,6 @@
   color: var(--alternate-text-color);
   background-attachment: fixed;
   text-align: center;
-  height: 150vh;
   padding-top: 105px;
   padding-bottom: 115px;
 }
@@ -16,9 +15,79 @@
   color: var(--alternate-text-color);
 }
 
+.price-items-box {
+  display: grid;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.price-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  height: 86px;
+  gap: 30px;
+  background: var(--background-color-section-item);
+}
+
+.price-item-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+.price-item-price {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+.price-item-price-monthly {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+  margin-left: 6px;
+}
+
+.price-item-price-monthly::before {
+  content: "";
+  height: 28px;
+  width: 1px;
+  background-color: var(--alternate-text-color);
+  left: -10%;
+  bottom: -2%;
+  position: absolute;
+}
+
 @media (max-width: 991px) {
   .price {
     padding-top: 90px;
     padding-bottom: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .price-items-box {}
+
+  .price-item {
+    grid-template-columns: 1fr;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+  }
+
+  .price-item-title {
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  .price-item-price {
+    font-size: 22px;
+    line-height: 33px;
   }
 }
