@@ -71,8 +71,7 @@
 }
 
 @media (max-width: 768px) {
-  .price-items-box {}
-
+ 
   .price-item {
     grid-template-columns: 1fr;
     height: auto;
