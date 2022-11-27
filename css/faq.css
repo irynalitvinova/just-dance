@@ -4,9 +4,72 @@
   text-align: center;
 }
 
+.faq-accordion-box {
+  margin-top: 40px;
+}
+
+.faq-accordion {
+  padding: 20px 0;
+  width: 100%;
+  border-top: 1px solid #62657140;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  color: var(--text-color-accent-dark);
+  text-align: left;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+  background: transparent;
+}
+
+.faq-accordion--start {
+  border-top: none;
+}
+
+.faq-accordion:after {
+  content: "+";
+  font-size: 30px;
+  color: var(--main-text-color);
+  opacity: 0.76;
+  float: right;
+  margin-left: 25px;
+}
+
+.faq-accordion--active:after {
+  content: "-";
+}
+
+.faq-accordion--end::after {
+  content: none;
+}
+
+.faq-accordion-panel {
+  display: none;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+
+.faq-accordion-panel-text {
+  text-align: left;
+  padding-right: 20px;
+}
+
 @media (max-width: 991px) {
   .faq {
     padding-top: 90px;
     padding-bottom: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq-accordion {
+    font-size: 22px;
+    line-height: 33px;
   }
 }
