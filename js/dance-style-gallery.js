@@ -6,7 +6,7 @@
     '<div class="dance-styles-gallery-item"><img class="dance-styles-gallery-item-img" src="img/styles/tango-style.png" alt="Tango"><p class="dance-styles-gallery-item-text">Tango</p></div>',
   ];
   let currentDanceStylesItemIndex = 0;
-  function renderArrivalsCard() {
+  function renderDanceStylesCard() {
     const danceStylesItemsContainer = document.querySelector(
       ".dance-styles-gallery-box"
     );
@@ -23,21 +23,21 @@
       }
     }
   }
-  function showNextArrivalsCard() {
+  function showNextDanceStyleCard() {
     currentDanceStylesItemIndex =
       currentDanceStylesItemIndex + 1 >= carouselDanceStylesItems.length ? 0 : currentDanceStylesItemIndex + 1;
-    renderArrivalsCard();
+    renderDanceStylesCard();
   }
-  function showPrevArrivalsCard() {
+  function showPrevDanceStyleCard() {
     currentDanceStylesItemIndex =
       currentDanceStylesItemIndex - 1 < 0 ? carouselDanceStylesItems.length - 1 : currentDanceStylesItemIndex - 1;
-    renderArrivalsCard();
+    renderDanceStylesCard();
   }
-  renderArrivalsCard();
+  renderDanceStylesCard();
   const nextDanceStylesButton = document.querySelector(".dance-styles-gallery-button-next");
-  nextDanceStylesButton.addEventListener("click", showNextArrivalsCard);
+  nextDanceStylesButton.addEventListener("click", showNextDanceStyleCard);
   const prevDanceStylesButton = document.querySelector(".dance-styles-gallery-button-prev");
-  prevDanceStylesButton.addEventListener("click", showPrevArrivalsCard);
+  prevDanceStylesButton.addEventListener("click", showPrevDanceStyleCard);
 
-  window.addEventListener("resize", renderArrivalsCard);
+  window.addEventListener("resize", renderDanceStylesCard);
 })();

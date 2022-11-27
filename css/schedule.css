@@ -83,6 +83,9 @@
 }
 
 @media (max-width: 768px) {
+  .schedule {
+    background-size: cover;
+  }
 
   .schedule-items {
     grid-template-columns: 1fr;
