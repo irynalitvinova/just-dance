@@ -11,9 +11,85 @@
   margin-right: auto;
 }
 
+.gallery-slider-box {
+  position: relative;
+}
+
+.gallery-slider {
+  display: none;
+}
+
+.gallery-slider--fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.gallery-slider-button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.19);
+  top: 35%;
+  cursor: pointer;
+}
+
+.gallery-slider-button-prev {
+  left: 15px;
+  transform: rotateY(180deg);
+}
+
+.gallery-slider-button-next {
+  right: 15px;
+}
+
+.gallery-slider-bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
+  height: auto;
+}
+
+.gallery-slider-bottom-item {
+  display: flex;
+  width: 20%;
+}
+
+.gallery-slider-bottom-img--demo {
+  opacity: 0.6;
+}
+
+.demo--active,
+.gallery-slider-bottom-img--demo:hover {
+  opacity: 1;
+}
+
+.gallery-slider-bottom-img--cursor {}
+
 @media (max-width: 991px) {
   .gallery {
     padding-top: 90px;
     padding-bottom: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-slider-bottom {
+    gap: 2px;
   }
 }
