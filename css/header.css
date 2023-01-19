@@ -182,6 +182,7 @@
     font-size: 86px;
     line-height: 86px;
   }
+
   .header-social-link .outer_bDW {
     filter: grayscale(0.90);
   }
@@ -190,7 +191,6 @@
 @media (max-width: 768px) {
   .header {
     height: 130vh;
-    
   }
 
   .header-content {
